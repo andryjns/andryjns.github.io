@@ -1,0 +1,75 @@
+
+body {
+  background-image: url("back.jpg");
+  background-size:     cover;                      
+  background-repeat:   no-repeat;
+  background-position: center center;  
+}
+
+
+h1,h2 {
+  color: yellow;
+  font-family: cursive; 
+}
+
+p {
+    font-family: Arial;
+    color: whitesmoke;
+
+  }
+  
+p.text {
+  font-family: Cambria;
+  font-size: 24px;
+  
+}  
+
+li {
+  font-size: 19px;
+  font-style: italic;
+  font-family: Arial;
+  color: whitesmoke
+}
+
+#visi {
+  position: relative;
+  padding: 10px;
+  height: 150px;
+  width: 600px;
+  left: 70px;
+} 
+
+#misi {
+  position: relative;
+  padding: 10px;
+  height: 150px;
+  width: 600px;
+  left: 70px;
+  top: 10px;
+} 
+
+
+#kontak {
+  border: 3px solid coral;
+  padding: 10px;
+  height: 150px;
+  width: 200px;
+  border-radius: 10px;
+  position: relative;
+  top: 100px;
+  left: 70px;
+  background-color:rgba(0, 0, 0, 0.5);
+  
+ 
+
+}
+
+
+footer {
+  position: absolute;
+  bottom:5px;
+  width:100%;
+  color: whitesmoke;
+  text-align: right;
+
+}
