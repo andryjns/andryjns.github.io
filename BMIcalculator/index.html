@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Andry-BMI</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="script.js"></script>
+  </head>
+  <body>
+      <div id="judul">
+          <h1>BMI Calculator</h1>
+          <p>Body Mass Index (BMI) adalah indeks klasifikasi berat badan proporsional terhadap tinggi seseorang.</p>
+          <p>BMI 18,5 – 22,9 adalah range ideal. Di bawah itu dikategorikan kurang, sedangkan di atas itu dikategorikan berlebih. </p>
+      </div>
+
+      <div class="isi">
+          <h3>Silahkan mengisi data di bawah ini untuk menghitung BMI anda:</h3>
+          <form action="#" method="POST" onSubmit="hitungBMI()">
+            <div>
+              <label>Berat badan (kg):</label>
+              <input type="number" name="berat" id="berat" />
+            </div>
+            <div>
+              <label>Tinggi badan (cm):</label>
+              <input type="number" name="tinggi" id="tinggi" />
+            </div>
+            <div>
+              <input type="submit" value="SUBMIT" class="tombol">
+            </div>
+          </form>
+      </div>
+
+      <div id="output">  </div>
+
+  </body>
+</html>
